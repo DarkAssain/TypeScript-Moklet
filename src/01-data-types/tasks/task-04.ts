@@ -10,3 +10,46 @@
  * 
  * display the book data using console.log.
  */
+// definition for book structure
+type Book = {
+  isbn: string;
+  title: string;
+  author: string;
+  totalPages: number;
+  category: string;
+  isAvailable: boolean;
+};
+
+// 3 book data examples
+const book1: Book = {
+  isbn: "978-602-03-3160-7",
+  title: "Laskar Pelangi",
+  author: "Andrea Hirata",
+  totalPages: 529,
+  category: "Fiction",
+  isAvailable: true
+};
+
+const book2: Book = {
+  isbn: "978-0141439518",
+  title: "Pride and Prejudice",
+  author: "Jane Austen",
+  totalPages: 432,
+  category: "Classic Literature",
+  isAvailable: false
+};
+
+const book3: Book = {
+  isbn: "978-1449331818",
+  title: "Learning TypeScript",
+  author: "Josh Goldberg",
+  totalPages: 310,
+  category: "Programming",
+  isAvailable: true
+};
+
+// logging the data
+console.log("Book Data");
+console.log(book1);
+console.log(book2);
+console.log(book3);

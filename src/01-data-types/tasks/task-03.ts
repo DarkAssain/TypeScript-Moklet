@@ -18,7 +18,6 @@ type Student = {
   isActive: boolean;
 };
 
-// Create the data for 3 students using our type
 const student1: Student = {
   id: "SMKTEL-001",
   name: "Budi Santoso",
@@ -40,7 +39,6 @@ const student3: Student = {
   isActive: false
 };
 
-// Print everything out
 console.log("--- Student Data ---");
 console.log(student1);
 console.log(student2);

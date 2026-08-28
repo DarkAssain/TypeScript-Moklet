@@ -10,7 +10,6 @@
  * 
  * display the book data using console.log.
  */
-// definition for book structure
 type Book = {
   isbn: string;
   title: string;
@@ -20,7 +19,6 @@ type Book = {
   isAvailable: boolean;
 };
 
-// 3 book data examples
 const book1: Book = {
   isbn: "978-602-03-3160-7",
   title: "Laskar Pelangi",
@@ -48,7 +46,6 @@ const book3: Book = {
   isAvailable: true
 };
 
-// logging the data
 console.log("Book Data");
 console.log(book1);
 console.log(book2);

@@ -10,7 +10,6 @@
  * display the attendance data using console.log.
  */
 
-// definition for attendance data structure
 type Attendance = {
   employeeId: string;
   name: string;
@@ -21,7 +20,6 @@ type Attendance = {
   isPresent: boolean;
 };
 
-// 3 attendance data examples
 const record1: Attendance = {
   employeeId: "EMP-010",
   name: "Naufal Abyan Rafa Montesky",
@@ -52,7 +50,6 @@ const record3: Attendance = {
   isPresent: false
 };
 
-// logging the data
 console.log("Employee Attendance Data");
 console.log(record1);
 console.log(record2);

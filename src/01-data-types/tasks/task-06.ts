@@ -9,3 +9,48 @@
  * 
  * display the product data using console.log.
  */
+
+type Product = {
+  productCode: string;
+  productName: string;
+  price: number;
+  stock: number;
+  weight: number;
+  rating: number;
+  isDiscounted: boolean;
+};
+
+const product1: Product = {
+  productCode: "PROD-101",
+  productName: "Wireless Mouse Logitech",
+  price: 250000,
+  stock: 45,
+  weight: 0.15,
+  rating: 4.8,
+  isDiscounted: true
+};
+
+const product2: Product = {
+  productCode: "PROD-102",
+  productName: "Mechanical Keyboard RGB",
+  price: 850000,
+  stock: 18,
+  weight: 0.95,
+  rating: 4.7,
+  isDiscounted: false
+};
+
+const product3: Product = {
+  productCode: "PROD-103",
+  productName: "USB-C Hub 6-in-1",
+  price: 350000,
+  stock: 0,
+  weight: 0.08,
+  rating: 4.5,
+  isDiscounted: true
+};
+
+console.log("Marketplace Product Data ");
+console.log(product1);
+console.log(product2);
+console.log(product3);

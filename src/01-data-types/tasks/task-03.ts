@@ -9,7 +9,6 @@
  * 
  * display the student data using console.log.
  */
-// Define what a student object looks like
 
 type Student = {
   id: string;

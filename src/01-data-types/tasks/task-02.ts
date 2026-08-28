@@ -18,7 +18,7 @@
 const productName: string = "Mechanical Keyboard RGB";
 const productCode: string = "KBR-001";
 const originalPrice: number = 850000;
-const flashSaleDiscount: number = 0.25; // 25% represented as a decimal
+const flashSaleDiscount: number = 0.25;
 let purchaseQuantity: number = 2;
 const isPremiumMember: boolean = true;
 let hasFreeShipping: boolean = true;

@@ -54,7 +54,6 @@ const scholarshipAmount: number = isAccepted ? 12000000 : 0;
 
 const remainingBudget: number = totalBudget - scholarshipAmount;
 
-// Display results
 console.log("Student Name: " + studentName);
 console.log("Is Accepted: " + isAccepted);
 console.log("Scholarship Amount: Rp" + scholarshipAmount);

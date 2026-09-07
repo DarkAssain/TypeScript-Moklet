@@ -51,9 +51,9 @@ const shippingFee: number = isPremiumMember ? 0 : 25000;
 
 const finalPayment: number = subtotal - discountAmount + shippingFee;
 
-console.log(`Subtotal:             Rp${subtotal.toLocaleString('id-ID')}`);
-console.log(`Total Items Counted:  ${totalItems} items`);
-console.log(`Discount Applied:     Rp${discountAmount.toLocaleString('id-ID')} (${hasDiscount ? '10%' : '0%'})`);
-console.log(`Shipping Fee:         Rp${shippingFee.toLocaleString('id-ID')} (Premium Member)`);
+console.log(`Subtotal: Rp${subtotal.toLocaleString('id-ID')}`);
+console.log(`Total Items Counted:${totalItems} items`);
+console.log(`Discount Applied:  Rp${discountAmount.toLocaleString('id-ID')} (${hasDiscount ? '10%' : '0%'})`);
+console.log(`Shipping Fee:   Rp${shippingFee.toLocaleString('id-ID')} (Premium Member)`);
 console.log(`-------------------------------------------`);
 console.log(`Final Payment Amount: Rp${finalPayment.toLocaleString('id-ID')}`);

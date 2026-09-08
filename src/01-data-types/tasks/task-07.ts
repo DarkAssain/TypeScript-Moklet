@@ -35,7 +35,7 @@ type Registration = {
 const reg1: Registration = {
   student: {
     id: "ST-01",
-    name: "Naufal Abyan Rafa Montesky",
+    name: "Nabeel Archi Dafa Montesky",
     grade: 10
   },
   course: {

@@ -50,7 +50,7 @@ const product3: Product = {
   isDiscounted: true
 };
 
-console.log("Marketplace Product Data ");
+console.log("Marketplace Product Data");
 console.log(product1);
 console.log(product2);
 console.log(product3);

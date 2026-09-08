@@ -20,9 +20,9 @@ type Attendance = {
   isPresent: boolean;
 };
 
-const record1: Attendance = {
+const nabeelLog: Attendance = {
   employeeId: "EMP-010",
-  name: "Naufal Abyan Rafa Montesky",
+  name: "Nabeel Archi Dafa Montesky",
   date: "2026-08-28",
   checkIn: "08:00",
   checkOut: "17:00",
@@ -30,7 +30,7 @@ const record1: Attendance = {
   isPresent: true
 };
 
-const record2: Attendance = {
+const dimasLog: Attendance = {
   employeeId: "EMP-011",
   name: "Dimas Febri",
   date: "2026-08-28",
@@ -40,7 +40,7 @@ const record2: Attendance = {
   isPresent: true
 };
 
-const record3: Attendance = {
+const azuraLog: Attendance = {
   employeeId: "EMP-012",
   name: "Azura Junaidi",
   date: "2026-08-28",
@@ -50,7 +50,7 @@ const record3: Attendance = {
   isPresent: false
 };
 
-console.log("Employee Attendance Data");
-console.log(record1);
-console.log(record2);
-console.log(record3);
+console.log("=== Employee Attendance System ===");
+console.log(nabeelLog);
+console.log(dimasLog);
+console.log(azuraLog);

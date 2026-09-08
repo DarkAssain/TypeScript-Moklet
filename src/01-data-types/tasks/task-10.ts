@@ -25,12 +25,36 @@ type Product = {
   freeShipping: boolean;
 };
 
-const cart: Product[] = [
-  { code: "KB001", name: "Mechanical Keyboard", price: 850000, quantity: 1, freeShipping: true },
-  { code: "MS002", name: "Wireless Mouse", price: 275000, quantity: 2, freeShipping: true },
-  { code: "HD003", name: "External SSD 1TB", price: 1650000, quantity: 1, freeShipping: false },
-  { code: "HP004", name: "Gaming Headset", price: 720000, quantity: 1, freeShipping: true }
+const activeBasket: Product[] = [
+  { 
+    name: "Mechanical Keyboard", 
+    code: "KB001", 
+    price: 850000, 
+    freeShipping: true, 
+    quantity: 1 
+  },
+  { 
+    name: "Wireless Mouse", 
+    code: "MS002", 
+    price: 275000, 
+    freeShipping: true, 
+    quantity: 2 
+  },
+  { 
+    name: "External SSD 1TB", 
+    code: "HD003", 
+    price: 1650000, 
+    freeShipping: false, 
+    quantity: 1 
+  },
+  { 
+    name: "Gaming Headset", 
+    code: "HP004", 
+    price: 720000, 
+    freeShipping: true, 
+    quantity: 1 
+  }
 ];
 
-console.log("Shopping Cart Items");
-console.log(cart);
+console.log("--Active Shopping Basket--");
+console.log(activeBasket);

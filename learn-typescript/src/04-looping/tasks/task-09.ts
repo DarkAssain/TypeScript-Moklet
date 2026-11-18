@@ -26,3 +26,52 @@ const students = [
     { name: "Gita", score: 92 },
     { name: "Hana", score: 67 }
 ];
+
+interface StudentGrade {
+    name: string;
+    score: number;
+}
+
+const totalStudents: number = students.length;
+let aStudents: number = 0;
+let bStudents: number = 0;
+let cStudents: number = 0;
+let dStudents: number = 0;
+let totalScore: number = 0;
+let highestScore: number = students[0].score;
+let lowestScore: number = students[0].score;
+
+for (let i: number = 0; i < totalStudents; i++) {
+    const student: StudentGrade = students[i];
+    const score: number = student.score;
+
+    totalScore += score;
+
+    if (score >= 90) {
+        aStudents++;
+    } else if (score >= 80) {
+        bStudents++;
+    } else if (score >= 70) {
+        cStudents++;
+    } else {
+        dStudents++;
+    }
+
+    if (score > highestScore) {
+        highestScore = score;
+    }
+
+    if (score < lowestScore) {
+        lowestScore = score;
+    }
+}
+
+const averageScore: number = totalScore / totalStudents;
+
+console.log(`A Students: ${aStudents}`);
+console.log(`B Students: ${bStudents}`);
+console.log(`C Students: ${cStudents}`);
+console.log(`D Students: ${dStudents}`);
+console.log(`Highest Score: ${highestScore}`);
+console.log(`Lowest Score: ${lowestScore}`);
+console.log(`Average Score: ${averageScore}`);
